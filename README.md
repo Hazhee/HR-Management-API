@@ -76,29 +76,29 @@ php artisan test
 ## API Documentation
 
 ### Authentication Endpoints
-- `POST /api/login`: Login and receive an access token.
-- `POST /api/logout`: Logout and invalidate the access token.
+- `POST /api/v1/login`: Login and receive an access token.
+- `POST /api/v1/logout`: Logout and invalidate the access token.
 
 ### Employee Endpoints
-- `GET /api/employees`: Get a list of all employees.
-- `POST /api/employees`: Create a new employee.
-- `DELETE /api/employees/{employee}`: Delete an employee.
-- `GET /api/employees/{employee}/managers`: Get the managers of an employee.
-- `GET /api/employees/average-salary`: Get the average salary of employees by age group.
-- `GET /api/employees/top-completed-projects/{department}`: Get the top 10 employees with the most completed projects in a department.
-- `GET /api/employees/never-changed-department`: Get employees who have never changed their department.
-- `POST /api/employees/{employee}/change-department`: Change the department of an employee.
+- `GET /api/v1/employees`: Get a list of all employees.
+- `POST /api/v1/employees`: Create a new employee.
+- `DELETE /api/v1/employees/{employee}`: Delete an employee.
+- `GET /api/v1/employees/{employee}/managers`: Get the managers of an employee.
+- `GET /api/v1/employees/average-salary`: Get the average salary of employees by age group.
+- `GET /api/v1/employees/top-completed-projects/{department}`: Get the top 10 employees with the most completed projects in a department.
+- `GET /api/v1/employees/never-changed-department`: Get employees who have never changed their department.
+- `POST /api/v1/employees/{employee}/change-department`: Change the department of an employee.
 
 ### Department Endpoints
-- `GET /api/departments`: Get a list of all departments.
-- `POST /api/departments`: Create a new department.
-- `POST /api/departments/{department}/assign-manager`: Assign a manager to a department.
+- `GET /api/v1/departments`: Get a list of all departments.
+- `POST /api/v1/departments`: Create a new department.
+- `POST /api/v1/departments/{department}/assign-manager`: Assign a manager to a department.
 
 ### Project Endpoints
-- `GET /api/projects`: Get a list of all projects.
-- `POST /api/projects`: Create a new project.
-- `GET /api/projects/search`: Search for projects by name, description, or assigned employee.
-- `GET /api/projects/average-duration`: Get the average duration of projects by department.
+- `GET /api/v1/projects`: Get a list of all projects.
+- `POST /api/v1/projects`: Create a new project.
+- `GET /api/v1/projects/search`: Search for projects by name, description, or assigned employee.
+- `GET /api/v1/projects/average-duration`: Get the average duration of projects by department.
 
 ## Contributing
 If you would like to contribute to this project, please follow these steps:
