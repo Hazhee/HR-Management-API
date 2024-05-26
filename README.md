@@ -100,29 +100,6 @@ php artisan test
 - `GET /api/v1/projects/search`: Search for projects by name, description, or assigned employee.
 - `GET /api/v1/projects/average-duration`: Get the average duration of projects by department.
 
-## Contributing
-If you would like to contribute to this project, please follow these steps:
-
-### Fork the repository.
-
-### Create a new branch:
-```sh
-git checkout -b feature/YourFeature
-```
-
-### Commit your changes:
-```sh
-git commit -am 'Add some feature'
-```
-
-### Push to the branch:
-```sh
-git push origin feature/YourFeature
-```
-
-### Create a new Pull Request.
-
-   
 
    
 
