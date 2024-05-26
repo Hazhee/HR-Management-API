@@ -19,7 +19,6 @@ This is a Laravel-based API for managing HR-related tasks, including employee ma
 - PHP 7.4 or higher
 - Composer
 - MySQL
-- Node.js and npm (for frontend assets, if applicable)
 
 ## Installation
 
