@@ -37,11 +37,6 @@ This is a Laravel-based API for managing HR-related tasks, including employee ma
 composer install
 ```
 
-## Install Node.js dependencies:
-```sh
-npm install
-```
-
 ## Environment Variables
 Copy the `.env.example` file to `.env`:
 ```sh
@@ -50,7 +45,6 @@ cp .env.example .env
 
 Update the `.env` file with your environment settings:
 - Database configuration
-- Mail configuration
 - Other necessary environment variables
 
 ## Database Setup
@@ -68,12 +62,6 @@ php artisan migrate --seed
 ### Start the local development server:
 ```sh
 php artisan serve
-```
-
-### (Optional) Compile frontend assets:
-If your project includes a frontend, compile the assets:
-```sh
-npm run dev
 ```
 
 ### Access the application:
